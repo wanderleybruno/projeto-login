@@ -41,7 +41,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -62,5 +62,13 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
 
 
