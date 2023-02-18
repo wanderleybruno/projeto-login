@@ -17,12 +17,15 @@ Grandes telas:___________acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
+    /* CONFIGURAÇÃO PARA TABLET */
+
     body {
         background-image:linear-gradient(to top, #C1E2F7,#188FD9 ) ;
     }
     
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -47,12 +50,15 @@ Grandes telas:___________acima de 1200px
 
 @media screen and (min-width: 992px) {
 
+    /* CONFIGURAÇÕES PARA DESKTOP */
+
         body {
             background-image:linear-gradient(to top, #C1E2F7,#188FD9 ) ;
         }
     
         section#login {
             width: 950px;
+            height: 420PX;
 
         }
 
@@ -73,7 +79,8 @@ Grandes telas:___________acima de 1200px
         }
 
         div#formulario > p {
-            font-size: 1.2em;
+            font-size: 1em;
+            margin: 10PX 0PX;
         }
 
 }
